@@ -1,0 +1,46 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+/* Fixed width container class that will "auto-center" itself */
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* 
+---------------------
+TOP NAV
+---------------------
+*/
+
+#top-nav {
+    height: 75px;
+    background-color: rgb(182, 178, 178);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#top-nav > h1 {
+    /* Should I style anything? Who knows?
+    If I'M stylish enough, maybe my font doesn't need to be! */
+}
+#top-nav input {
+    width: 250px;
+}
+/* Button that pops off the screen: Optional drop shadow and border rounding */
+#top-nav > button {
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-width: 3px;
+    border-color: black;
+    font-size: 18px;
+    box-shadow: 3px 3px black;
+    /* border-radius: 50%; */
+}
